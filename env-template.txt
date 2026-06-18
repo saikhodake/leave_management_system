@@ -1,0 +1,33 @@
+# Server
+PORT=5000
+NODE_ENV=development
+SERVE_FRONTEND=false
+
+# PostgreSQL Database
+DBCONNECT=postgresql://username:password@localhost:5432/leave_management
+
+# JWT
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRES_IN=30d
+
+# Email
+EMAIL_USER=example@gmail.com
+EMAIL_PASS=your_gmail_app_password
+
+# Frontend
+FRONTEND_BASE_URL=http://localhost:3000
+CORS_ORIGIN=http://localhost:3000,http://localhost:5173
+
+# Feature Toggles
+ENABLE_EMAIL=true
+ENABLE_LEAVE_REMINDERS=true
+ENABLE_HOLIDAY_REMINDERS=true
+
+# AWS S3
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+AWS_REGION=ap-south-1
+S3_BUCKET_NAME=leave-management-files
+
+# Gemini AI
+GEMINI_API_KEY=your_gemini_api_key
